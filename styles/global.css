@@ -173,3 +173,167 @@ h2 {
     padding: 20px 40px;
 }
 /* End heavy styling of hyperlinks */
+
+/* Style the left Columns */
+.feature .leftColumn {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+/* End styling the left columns */
+
+/* Style the right columns */
+.feature .rightColumn {
+    margin-left: 50%;
+    width: 50%;
+    text-align: center;
+}
+/* End styling the right columns */
+
+/* Style Non-Pictures */
+.feature .leftColumn .text, .feature .rightColumn .text {
+    padding: 80px 20px 20px 20px;
+    min-height: 260px;
+}
+
+.feature .leftColumn .text a, .feature .rightColumn .text a {
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+    padding: 20px;
+    background-color: #4392F1;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.feature .leftColumn .text a:hover, .feature .rightColumn .text a:hover {
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+    background-color: #F46036;
+    text-decoration: none;
+    padding: 20px 40px;
+}
+
+.feature .leftColumn .text a.emailLink, .feature .rightColumn .text a.emailLink {
+    color: white;
+    text-decoration: none;
+    transition: none;
+    padding: 10px;
+    border: 0;
+    background-color: #4392F1;
+}
+
+.feature .leftColumn .text a.emailLink:hover, .feature .rightColumn .text a.emailLink:hover {
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+    background-color: #F46036;
+}
+/* End Styling non-pictures */
+
+/* define the horizontal rule */
+.feature hr {
+    background-color: #333;
+    height: 1px;
+    border: 0;
+    width: 50px;
+}
+/* End defining the horizontal rule */
+
+/* Style the images */
+.featureImage   img {
+    width: 500px;
+}
+
+.middleImage {
+    text-align: center;
+}
+
+.middleImage img {
+    max-width: 1000px;
+}
+/* End Styling images */
+
+/* Style the scrolltotop elements */
+#scrollToTop {
+    display: none;
+    opacity: .5;
+    background-color: #F46036;
+    padding: 0 20px;
+    color: white;
+    width: 26px;
+    font-size: 40px;
+    line-height: 48px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+#scrollToTop:hover {
+    opacity: 1;
+    -webkit-transition: all 250ms linear;
+    -ms-transition: all 250ms linear;
+    transition: all 250ms linear;
+    cursor: pointer;
+}
+/* End styling the scrolltotop */
+
+/* style the contact us section */
+.contactMap {
+    width: 100%;
+    height: 400px;
+}
+/* end styling the contact us section */
+
+/* Style the Subscribe Section */
+#subscribe {
+    background-color: #4392F1;
+    height: 160px;
+    padding-top: 40px;
+}
+
+#subscribe h2 {
+    margin: 15px 0 20 px 0;
+    color: white;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+#subscribe input[type=text] {
+    border: 0;
+    width: 250px;
+    height: 28px;
+    font-size: 14px;
+    padding: 0 10px;
+    border-radius: 30px;
+}
+
+#subscribe input[type=submit] {
+    border: 0;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    background-color: #345995;
+    color: white;
+    border-radius: 30px;
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+    cursor: pointer;
+}
+
+#subscribe input[type=submit]:hover {
+    background-color: #F46036;
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+}
+/* End Style the Subscribe Section */
+
+/* Style the footer */
+
+/* End Style the footer */
