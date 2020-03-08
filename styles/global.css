@@ -146,3 +146,30 @@ h2 {
     margin-top: 20px;
 }
 /* End styling the banner */
+
+/* Style the hyperlink with the transitions */
+#banner #action {
+    font-weight: bold;
+    width: 200px;
+    margin: 20px auto 0 auto;
+}
+
+#banner #action a {
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #4392F1;
+}
+
+#banner #action a:hover{
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+    background-color: #F46036;
+    padding: 20px 40px;
+}
+/* End heavy styling of hyperlinks */
