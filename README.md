@@ -11,18 +11,18 @@ Although I have had ample experience in web-styled programming, I wanted to ensu
 <br>
 
 ### Below are images of the website's completion. The final form of the website only involves the landing page, and uses advanced coding techniques from HTML, CSS, and Javascript. 
-
+<br>
 Take note that the promo messages displayed on top change every 4 seconds using Javascript.
 ![](preview/img1.png)
-
+<br>
 The website continues adding in subsections for Birds, Fishes, and Dogs
 ![](preview/img2.png)
-
+<br>
 The website ends with a view of the "Contact", "Subscribe", and "Copyright" Sections. Note that the "Up" arrow located at the bottom right is an added JavaScript code that allows the user to scroll to the top of the page with a click, and only appears once the user scrolls down.
 ![](preview/img3.png)
-
+<br>
 Below is a preview of the code used in HTML and CSS
 ![](preview/img4.png)
-
+<br>
 Below is a preview of the code used in JavaScript, making the website interactive
 ![](preview/img5.png)
